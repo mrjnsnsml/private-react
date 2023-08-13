@@ -14,4 +14,6 @@
 5) Same project with Thunk in depth, if possible.
 6) Same project, unit testing
 7) Same project, with Material UI
-8) Same Project, with Konva JS (nice to have).   
+8) Same Project, with Konva JS (nice to have).
+9) Same Project, with user registration.
+10) Same Project, with kendo grid, kendo drawer.

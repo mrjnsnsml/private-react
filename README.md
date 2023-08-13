@@ -14,4 +14,4 @@
 5) Same project with Thunk in depth, if possible.
 6) Same project, unit testing
 7) Same project, with Material UI
-8)    
+8) Same Project, with Konva JS (nice to have).   

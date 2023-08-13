@@ -18,3 +18,4 @@
 9) Same Project, with user registration.
 10) Same Project, with kendo grid, kendo drawer.
 11) Same Project, with IIFE design pattern . Explore other ES5 design patterns and document its examples.
+12) React forms eg.

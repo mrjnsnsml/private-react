@@ -19,7 +19,7 @@ ReactDOM
               return (
                 <div className="person">
                   <h1> { props.name } </h1>
-                  <p> { props.age} </p>
+                  <p> { props.age} </p>    // NOTE: unlike angular, in react we use single brace {} 
                 </div>
               )
             }

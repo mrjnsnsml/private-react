@@ -11,4 +11,15 @@ ReactDOM
       )
     }
 
-    
+  - Few more ways:
+      => Passing hard-code params to the function comp.
+            ReactDom.render(<Person name="max" age="28" />,   document.querySelector('#p1');
+      => using props (to replace hard-coding of max and 28
+            function Person (props) {
+              return (
+                <div className="person">
+                  <h1> { props.name } </h1>
+                  <p> { props.age} </p>
+                </div>
+              )
+            }

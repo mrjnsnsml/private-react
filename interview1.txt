@@ -3,4 +3,12 @@ ReactDOM
   - ReactDOM.render() //allows to render a JS-function comp. to the DOM. 
     ReactDOM.render(<Person />, document.querySelector('#p1');
 
+    function Person(){
+      return (
+        <div className="person">      // className is react's syntax for a css-class 
+              .... 
+        </div>
+      )
+    }
+
     

@@ -31,3 +31,7 @@ ReactDOM
                                   <Person name = "jen" ... />  
                               </div>
                           )
+            +
+
+              ReactDOM.render(app, document.querySelector('#app'));
+

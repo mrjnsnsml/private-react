@@ -1,0 +1,6 @@
+React
+ReactDOM
+  - ReactDOM.render() //allows to render a JS-function comp. to the DOM. 
+    ReactDOM.render(<Person />, document.querySelector('#p1');
+
+    

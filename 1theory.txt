@@ -1,0 +1,87 @@
+React interview questions:-
+>> React works on the virtual DOM (or fake DOM like i call it) and not on the actual DOM 
+		- virtual DOM eases the work on the browser thereby reducing paint/render time.
+>> unidirectional flow of data ?? parent-to-child. easy to debug and predictable application state.
+>> reusable components 
+>> Reconciliation in React:-
+	- it means how does react handle updates and rendering? 
+		A. react difference algo runs on virtual DOM and actual DOM .
+		This process of diffing is called "Data Reconciliation"
+		
+>> How does data flow? and what are props and state ?
+		Props: read only properties from parent to child 
+		State: it is internal to a comp & holds info on that component.
+				Note:- States can also be "passed as a prop" to the child, but for the child, it will be a read only prop. 
+				
+					this.state.name 
+					this.props.name 
+					
+>> What are refs in react? 
+	- react creates its own DOM and u cannot access it.any changes to its data is done using props or state.
+		But sometimes, u may want to do things like bring focus to an element, etc. 
+	- refs are like getElementById() . use it only it becomes really necessary.
+	
+>> React Fiber
+	- user action becomes non-blocking when diffing algo becomes heavy.
+
+>> Synthetic events in react:-
+	- events triggered are handled by react and react forwards it to the browser.
+	- react is man in the middle as diff. browsers handle events different and react prevents browser-specific code to be written.
+	
+>> Hooks
+	- make state logic reusable, testable.
+	- now everything is function based component and nothing is class based component.
+
+
+----
+	
+https://www.youtube.com/watch?v=b8pAPWsWIE4	
+
+Component-life cyle:- Initial Rendering, Updation, Unmounting. 
+
+Higher order components:- Props-handling, state-handling and abstraction, render high jacking, code reusing, bootstrap abstraction
+	https://www.youtube.com/shorts/Y-c7PTIDBIE
+
+Controlled vs uncontrolled components:-
+	Controlled comps:-	React has complete control of the comp and it can handle form data. 
+	Uncontrolled comps:- form data is handled by DOM and not react component . Here we use refs in react. 
+	
+cloneElement vs createElement: ??
+
+setState:- ??
+
+How to avoid binding in react?
+		A. solution 1:- event handler can be a arrow function 
+		   solution 2:- use function component with hooks. 
+
+what is strictmode component in react?
+		A. ???
+		
+What to do if you react application is rendering slowly?
+		A. slow rendering is because of lot of re-render operations
+			Solution 1:- use React.memo() prevents unnecessary re-rendering of function comps .
+			Solution 2:- PureComponent: used to prevent unnecessary re-rendering of class-comps.
+			
+React Design Patterns:-
+	https://aglowiditsolutions.com/blog/react-design-patterns/ 
+	
+Prop Drilling :- what is it and how to avoid it or better way to handle it .
+				 ??? 
+				 
+React.Context and Context API ?
+
+useState,useReducer,useEffect:- wth r these?				 
+
++++++++++++++++++++++++++++
+
+React-redux interview questions:- 
+
+	Action
+	Reducer: 
+	Store: Storage of state and tree
+	View 
+
+React-typescript interview questions:- 
+
+
+React-forms interview questions:-

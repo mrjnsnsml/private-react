@@ -85,3 +85,15 @@ React-typescript interview questions:-
 
 
 React-forms interview questions:-
+
+
++++++++++++++++++++++++++++++++
+
+
+mapStateToProps, mapDispatchToProps
+
++++++++++++++++++++++++++++++++
+
+react-intl 
+react-routing 
++++++++++++++++++++++++++++++++

@@ -23,3 +23,11 @@ ReactDOM
                 </div>
               )
             }
+
+        => NOTE:- if u r using multiple instance of the component, then u need to create a single root element like a wrapper-div.
+            eg. var app = (
+                              <div>
+                                  <Person name = "max" ... />
+                                  <Person name = "jen" ... />  
+                              </div>
+                          )
